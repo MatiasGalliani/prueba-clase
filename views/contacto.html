@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body style="font-family: 'Inter', sans-serif;">
+    <header>
+        <h1 id="title">
+            Concesionaria de Autos
+        </h1>
+        <img src="../assets/logo.jpg" id="logo" height="100px" width="100px">
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./views/tabla-productos.html">Productos</a></li>
+                <li><a href="./views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="contact-form">
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" placeholder="Nombre" name="name" id="name" required />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email" name="email" id="email" required />
+            </div>
+
+            <div>
+                <label for="email-subject">Asunto:</label>
+                <input type="text" placeholder="Asunto" name="email-subject" id="email-subject" required />
+            </div>
+
+            <div>
+                <label for="message">Mensaje:</label>
+                <textarea placeholder="Mensaje" name="message" id="message" disabled></textarea>
+            </div>
+            
+            <button type="submit" disabled>Enviar</button>
+        </form>
+    </main>
+
+    <footer id="footer">
+        <section id="logo-footer">
+            <h4>
+                Concesionaria de Autos
+            </h4>
+            <img src="../assets/logo.jpg" id="logo" height="100px" width="100px">
+        </section>
+
+        <small id="derechos">
+            Concesionaria de Autos - Todos los derechos reservados - 2025 ®
+        </small>
+    </footer>
+</body>
+
+</html>
